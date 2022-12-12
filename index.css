@@ -567,6 +567,8 @@ color: black;
     display: flex;
 }
 
+
+
 .project__container_text:nth-child(even){
     margin-left: 20px;
     
@@ -629,6 +631,7 @@ padding-top: 171px;
     padding-top: 0;
     margin-bottom: 265px;
     font-size: 16px;
+    width: 340px;
     }
 }
 
@@ -648,7 +651,7 @@ padding-top: 171px;
 
 @media screen and (max-width:425px) {
     .project__container_image{
-        width: 360px;
+        width: 340px;
         height: 304px;
         object-fit: cover;
         margin-top: -389px;
@@ -664,7 +667,7 @@ padding-top: 171px;
 
 @media screen and (max-width:425px) {
     .project__container_image_three{
-        margin-bottom: -555px
+        margin-bottom: -525px
     }
 }
 
@@ -714,6 +717,8 @@ padding-top: 171px;
         padding-top: 78px;
         margin-top: -3px;
         margin-bottom: -52px;
+        width: 340px;
+        justify-content: space-between;
     }
 }
 
@@ -735,6 +740,7 @@ padding-left: 138px;
 @media screen and (max-width:425px) {
     .project__container_metre{
         font-size: 16px;
+        padding: 0;
 
     }
 }
@@ -745,6 +751,14 @@ font-weight: 500;
 font-size: 22.2789px;
 max-width: 52px;
 max-height: 30px;
+margin-right: 23px;
+}
+
+@media screen and (max-width:425px) {
+    .project__container_year{
+        margin-top: 48px;
+
+    }
 }
 
 .project__container_subtitle_two{
@@ -1748,6 +1762,7 @@ line-height: 24px;
 
 
 
+
 .footer__container{
     display: flex;
     flex-direction: row;
@@ -1786,6 +1801,7 @@ line-height: 24px;
         margin-left: 50px;
     }
 }
+
 
 
 
@@ -1869,9 +1885,28 @@ margin-bottom: 27px;
     }
 }
 
+@media screen and (max-width:425px) {
+    .footer__container_image{
+        width: 121px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .footer__image_whts{
+        width: 49px;
+    }
+}
+
+
 
 .footer__image_tg{
     margin-left: 23px;
+}
+
+@media screen and (max-width:768px) {
+    .footer__image_tg{
+        width: 49px;
+    }
 }
 
 .footer__underline{
@@ -1887,6 +1922,44 @@ margin-bottom: 27px;
     line-height: 16px;
     color: rgba(0, 0, 0, 0.65);
     margin-top: 32px;
+}
+
+
+
+
+
+/* страница меню портфолио*/
+
+.header__title{
+    font-style: normal;
+    font-weight: 350;
+    font-size: 37px;
+    line-height: 102%;
+    font-family: 'Alethia', 'sans-serif';
+    font-style: normal;
+    margin: 0;
+    margin-left: 25px;
+    margin-right: 63px;
+    margin-top: 52px;
+    margin-bottom: 40px;
+}
+
+.header__portfolio{
+    height: max-content;
+    border-bottom: 1px solid;
+}
+
+.header__image_burger-portfolio{
+    margin-top: 65px;
+}
+
+
+@media screen and (max-width:425px) {
+    .project__container_text_title{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
 }
 
 
