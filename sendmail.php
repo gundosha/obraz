@@ -4,28 +4,35 @@
 
     require 'phpmailer/src/Exception.php';
     require 'phpmailer/src/PHPMailer.php';
-
+    $number = $_POST['number']
     $mail = new PHPMailer(true);
     $mail->CharSet = 'UTF-8';
+    $mail->HOST ='smtp@mail.ru'
     $mail->setLanguage('ru', 'phpmailer/languag/');
-    $mail->IsHTML(true);
+    $mail->IsHTML;(true)
+    $mail->SMTPAuth = true;
+    $mail->Password ='gopnik1234505'
+    $mail->Username='ivanov.ivanovish99@mail.ru'
+    $mail->SMTPsecure = 'ssl'
+    $mail->Port = 465
 
-    $mail->setForm('infoobraz@mail.ru', 'Клиент');
+
+
+
+    $mail->setForm('ivanov.ivanovish99@mail.ru');
     $mail->addAdress('zamilov_2016@mail.ru');
     $mail->Subject = 'Номер клиента';
 
-    $body = '<p>'.$_POST['number']'</p>'
 
-    $mail->Body = $body
+
+    $mail->Body = $number
 
     if(!$mail->send()) {
-        $message = 'ошибка';
+        echo 'Error'
     } else {
-        $message = 'Данные отправлены';
+       echo 'Кайф'
     }
 
-    $response = ['message' = $message];
 
-    header('Content-type: application/json');
-    echo json_encode($response)
+    header();
 ?>
