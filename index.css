@@ -167,6 +167,10 @@ ul{
     
 }
 
+.header__menu_text:hover{
+    font-weight: 700;
+}
+
 @media screen and (max-width: 1200px){
     .header__menu_text{
         margin-left: 18px;
@@ -185,14 +189,6 @@ ul{
     .header__menu_text:last-child{
         padding-right: 18px;
     }
-}
-
-
-
-.header__menu_home{
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 24px;
 }
 
 .we{
@@ -1077,6 +1073,14 @@ margin-left: 100px
     background-color: #DFDCD5;
 }
 
+@media screen and (min-width:426px) {
+    .slider_next{     
+        display: none;
+    }
+}
+
+
+
 .slider_next_prices{
     position: absolute;
     top: 45%;
@@ -1084,6 +1088,12 @@ margin-left: 100px
     border: 0;
     background-color: #F9F5F2;
     
+}
+
+@media screen and (min-width:426px) {
+    .slider_next_prices{     
+        display: none;
+    }
 }
 
 .slider__image{
@@ -1584,7 +1594,7 @@ margin-bottom: 36px;
     border-bottom: 1px solid;
     width: 61.6%;
     position: absolute;
-    right: 21%;
+    right: 18%;
     top: 81%;
 
 }
@@ -1683,6 +1693,7 @@ margin-bottom: 115px;
     font-weight: 400;
 font-size: 18px;
 line-height: 24px;
+
 }
 
 @media screen and (max-width:550px) {
@@ -1690,6 +1701,7 @@ line-height: 24px;
         width: 200px;
         height: 56px;
         font-size: 12px;
+    
     }
 }
 
@@ -1708,6 +1720,14 @@ line-height: 24px;
     width: 400px;
     height: 73.5px;
     border: none;
+    cursor: pointer;
+}
+
+._error{
+}
+
+.dream__btn:active{
+    opacity: 0.5;
 }
 
 @media screen and (max-width:550px) {
@@ -2076,4 +2096,65 @@ margin-bottom: 27px;
     max-width: 340px;
     margin-left: 25px;
     margin-bottom: 25px;
+}
+
+
+
+/* ошибка 404 */
+
+.header__err{
+    height: max-content;
+}
+
+.header__logo_err{
+    padding-top: 55px;
+    border: none;
+}
+
+.err__main{
+    margin-top: 120px;
+    text-align: center;
+}
+
+.err__title{
+    font-style: normal;
+    font-weight: 350;
+    font-family: 'Alethia', 'sans-serif';
+    font-style: normal;
+    margin: 0;
+    font-size: 76px;
+}
+
+.err__title_numb{
+    font-style: normal;
+    font-weight: 350;
+    font-family: 'Alethia', 'sans-serif';
+    font-style: normal;
+    margin: 0;
+    font-size: 101px;
+}
+
+.err__subtitle{
+    font-style: normal;
+    font-weight: 350;
+    font-style: normal;
+    font-size: 16px;
+    margin: 0;
+    margin: auto;
+    margin-top: 54px;
+    margin-bottom: 83px;
+    width: 196px;
+    line-height: 21px;
+}
+
+.err__btn{
+    margin: auto;
+    font-size: 18px;
+    padding: 0;
+    outline: none;
+    border: 1px solid;
+    background: #F9F5F2;
+    height: 51px;
+    width: 199px;
+    margin-bottom: 264px;
 }

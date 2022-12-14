@@ -19,18 +19,18 @@
                             <a class="header__menu_text header__menu_home" href='./index.html'>Home</a>
                             <a class="header__menu_text" href='#'>О нас</a>
                             <a class="header__menu_text" href='./portfolio.html'>Проекты</a>
-                            <a class="header__menu_text" href='#'>Цены</a>
-                            <a class="header__menu_text" href='#'>Связаться</a>
+                            <a class="header__menu_text" href='#price'>Цены</a>
+                            <a class="header__menu_text" href='#contact'>Связаться</a>
                         </div>
                         <ul class="header__menu_burger">
                             <li>    
                                 <img class="header__image_burger" src="./image/,burger.svg"alt="лого">
                                 <ul class='header__menu_burgers header__menu_burger_block'>
-                                     <li><a class="header__menu_text" href='#'>Home</a></li>
-                                      <li><a class="header__menu_text" href='#'>О нас</a></li>
+                                     <li><a class="header__menu_text" href='./index.html'>Home</a></li>
+                                      <li><a class="header__menu_text" href='#why_we'>О нас</a></li>
                                     <li><a class="header__menu_text" href='/portfolio.html'>Проекты</a></li>
-                                       <li><a class="header__menu_text" href='#'>Цены</a></li>
-                                      <li><a class="header__menu_text" href='#'>Связаться</a></li>
+                                       <li><a class="header__menu_text" href='#price'>Цены</a></li>
+                                      <li><a class="header__menu_text" href='#contact'>Связаться</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -123,6 +123,7 @@
                     <button class="project__btn"><p class="project__btn_text">полное портфолио</p> <img src="./image/Vector.svg" alt="стрелочка" class="project__btn_image"></button>
                 </section>
                 <section class="adv">
+                    <a name="why_we"></a>
                     <h2 class="adv__title">\Почему 
                         выбирают нас?</h2>
                     <div class="adv__border"></div>
@@ -215,6 +216,7 @@
                     </section>
 
                     <section class="prices">
+                        <a name='price'></a>
                         <h2 class="prices__title">\Стоимость</h2>
                         <div class="prices__container">
                             <div class="price__containers prices__container_full">
@@ -280,6 +282,7 @@
                     </section>
                     <section class="dream">
                         <div class="dream__title_container">
+                        <a name='contact'></a>
                         <h2 class="dream__title">
                             
                             Твой шаг к дому мечты
@@ -289,9 +292,9 @@
                         <p class="dream__subtitle">Помогаем найти баланс между красотой и комфортом. 
                             Контроль качества на каждом этапе.</p>
                         <div class="dream__response">
-                            <form class="dream__form">
+                            <form id='form' class="dream__form">
                                 <fieldset class="dream__form_set">
-                                    <input type="tel" placeholder="номер телефона" pattern="+7-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" name="number" id="number minlength='10" class="dream__input">
+                                    <input type="tel" placeholder="номер телефона"  name="number" id="formEmail" class="dream__input _req">
                                     <button type="submit" class="dream__btn">рассчитать стоимость проекта</button>
                                 </fieldset>
                             </form>
