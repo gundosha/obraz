@@ -28,7 +28,7 @@
                                 <ul class='header__menu_burgers header__menu_burger_block'>
                                      <li><a class="header__menu_text" href='./index.html'>Home</a></li>
                                       <li><a class="header__menu_text" href='#why_we'>О нас</a></li>
-                                    <li><a class="header__menu_text" href='/portfolio.html'>Проекты</a></li>
+                                    <li><a class="header__menu_text" href='./portfolio.html'>Проекты</a></li>
                                        <li><a class="header__menu_text" href='#price'>Цены</a></li>
                                       <li><a class="header__menu_text" href='#contact'>Связаться</a></li>
                                 </ul>
@@ -39,7 +39,7 @@
                     <div class="we__design">
                         <div class="design__text_container">
                             <h1 class="design__title">Cтудия дизайна интерьера</h1>
-                            <h3 class="design__subtitle">- Проектрируем каждое решение с мыслью о людях <p class="design__subtitle_invisible">и их мечтах</p></h3>
+                            <h3 class="design__subtitle">- Проектрируем каждое решение с мыслью о людях и их мечтах</h3>
                             <button class="design__btn"><a class="design__btn_link" href="#">консультация <img src="./image/Vector.svg" class="design__btn_image" alt="стрелочка"> <img src="./image/white_arrow.svg" alt="стрелочка" class="design__btn_image_white"></a></button>
                         </div>
                         <img src="./image/Rectangle 865.png" alt="картинка примера" class="design__image">
@@ -207,12 +207,11 @@
                                 <div class="work__container_group2">
                                     <img src="./image/Vector.svg" alt="" class="work__container_arrow">
                                     <p class="work__container_subtitle">Реализация и ведение стройки под ключ
-                                        </p>
-                                        
+                                        </p>               
                                 </div>
+                                <a href="#" class="work__container_link">коммерческое предложение  pdf <img src="./image/Vectorarrow.svg" alt="стрелочка" class="work__container_image"></a>
                             </div>
                         </div>
-                        <a href="#" class="work__container_link">коммерческое предложение  pdf <img src="./image/Vectorarrow.svg" alt="стрелочка" class="work__container_image"></a>
                     </section>
 
                     <section class="prices">
@@ -292,8 +291,13 @@
                         <p class="dream__subtitle">Помогаем найти баланс между красотой и комфортом. 
                             Контроль качества на каждом этапе.</p>
                         <div class="dream__response">
-                            <form action="sendmail.php" method="POST" id='form' class="dream__form">
+                            <form id='form' class="dream__form">
                                 <fieldset class="dream__form_set">
+                                    <input type="hidden" name="project_name" value="Site Name">
+		                            <input type="hidden" name="admin_email" value="zamilov_2016@mail.ru">
+		                            <input type="hidden" name="form_subject" value="Form Subject">
+
+
                                     <input type="tel" placeholder="номер телефона"  name="number" id="formEmail" class="dream__input _req">
                                     <button type="submit" class="dream__btn">рассчитать стоимость проекта</button>
                                 </fieldset>
@@ -328,6 +332,8 @@
                     </section>
     </div>
 </body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="./index.js"></script>
 </html>
 

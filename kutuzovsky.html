@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="normalize.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>kutuzovsky</title>
 </head>
 <body>
@@ -53,27 +54,27 @@
                 <img src="./image/oneexample.png" alt="первый пример" class="project__container_image">
             </div>
         </section>
-        <section class="location">
+        <section data-aos="fade-right" class="location">
             <p class="location__title_small">локация</p>
             <h2 class="location__title">Москва</h2>
             <p class="location__subtitle location__subtitle-kutuz">При обсуждении проекта возникло расхождение вкуса у заказчиков: сам заказчик предпочитает современные интерьеры, в то время как его жена отдает предпочтение классическим.</p>
             <p class="location__subtitle"> Но нам удалось найти золотую середину: квартира была преимущественно выполнена в современном стиле, но с добавлением классических элементов.</p>
         </section>
         <section class="project-kutuz">
-            <img src="./image/vanna-kutuz.png" alt="ванная комната кутузовский жк" class="project-kutuz__image">
-            <p class="location__subtitle">Мы использовали множество световых сценариев. В квартире натяжной тканевый потолок с теневым зазором по периметру. Основной свет в кухне-гостиной и прихожей - магнитная трековая система, которая переходит из одной зоны в другую, тем самым объединяя пространство.</p>
-            <img src="./image/gostin-kutuz.png" alt="гостинная кутузовский" class="project-kutuz__image">
-            <p class="location__subtitle">Кухонная часть была разделена на 2 зоны: "маленькая" часть кухни с варочной поверхностью, раковиной и посудомойкой - на виду, а вторая половина с крупной бытовой техникой располагается напротив и скрыта, мебельные фасады сделаны в цвет стен. Таким образом кухня получилась легкой и воздушной, но при этом функциональной. </p>
-            <img src="./image/plan-kutuz.png" alt="" class="project-kutuz__image">
-            <img src="./image/коридор скролл 2.png" alt=" коридор кутузовский" class="project-kutuz__image">
-            <img src="./image/спальня скролл 1.png" alt="спальня кутузовский" class="project-kutuz__image">
-            <img src="./image/детская.png" alt="детская комната кутузовский" class="project-kutuz__image">
-            <div class="project__container_navigation">
+            <img data-aos="fade-left" src="./image/vanna-kutuz.png" alt="ванная комната кутузовский жк" class="project-kutuz__image">
+            <p data-aos="fade-right" class="location__subtitle">Мы использовали множество световых сценариев. В квартире натяжной тканевый потолок с теневым зазором по периметру. Основной свет в кухне-гостиной и прихожей - магнитная трековая система, которая переходит из одной зоны в другую, тем самым объединяя пространство.</p>
+            <img data-aos="fade-left" src="./image/gostin-kutuz.png" alt="гостинная кутузовский" class="project-kutuz__image">
+            <p data-aos="fade-right" class="location__subtitle">Кухонная часть была разделена на 2 зоны: "маленькая" часть кухни с варочной поверхностью, раковиной и посудомойкой - на виду, а вторая половина с крупной бытовой техникой располагается напротив и скрыта, мебельные фасады сделаны в цвет стен. Таким образом кухня получилась легкой и воздушной, но при этом функциональной. </p>
+            <img data-aos="fade-left" src="./image/plan-kutuz.png" alt="" class="project-kutuz__image">
+            <img data-aos="fade-right" src="./image/коридор скролл 2.png" alt=" коридор кутузовский" class="project-kutuz__image">
+            <img data-aos="fade-left" src="./image/спальня скролл 1.png" alt="спальня кутузовский" class="project-kutuz__image">
+            <img data-aos="fade-right" src="./image/детская.png" alt="детская комната кутузовский" class="project-kutuz__image">
+            <div data-aos="fade-left" class="project__container_navigation">
                 <a href="./metropoliya.html" class="project-kutuz__link">следующий проект</a>
                 <a href="./metropoliya.html" class="project-kutuz__link_image"><img src="./image/Vector.svg" alt="" class="project-kutuz__image_link"></a>
             </div>
         </section>
-        <section class="projects">
+        <section data-aos="fade-up" class="projects">
             <div class="projects__container"></div>
                 <a href="./discoverpark.html" class="projects__link"><h3 class="projects__text_link">ЖК Discovery park</h3></a>
                 <a href="./metropoliya.html" class="projects__link"><h3 class="projects__text_link">ЖК Метрополия корпус ROME</h3></a>
@@ -86,5 +87,10 @@
         </section>
     </div>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="./index.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </html>

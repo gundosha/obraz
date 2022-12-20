@@ -41,3 +41,26 @@ open_btn.addEventListener('click', open_sublist);
 
 
 
+
+
+
+$(document).ready(function(){
+
+
+    $('form').submit(function(){
+        let th = $(this);
+        $.ajax({
+            type: "POST",
+            url: "mail.php",
+            data: th.serialize()
+        }).done(function(){
+            alert('thank you!');
+            setTimeout(function(){
+                th.trigger('reset');
+            }, 1000)
+        })
+        return false;
+    });
+});
+
+

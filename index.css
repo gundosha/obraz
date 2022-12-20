@@ -136,6 +136,13 @@ ul{
     margin-top: 41px;
 }
 
+@media screen and (min-width:500px) {
+    .header__image_burger{
+        margin-top: 85px;
+        width: 100px;
+    }
+}
+
 .header__menu_burgers{
     position: absolute;
     top: 100%;
@@ -215,6 +222,13 @@ ul{
     }
 }
 
+@media screen and (max-width: 769px) {
+    .design__image{
+        max-height: 354px;
+
+    }
+}
+
 .design__title{
     font-family: 'Alethia', 'sans-serif';
     font-style: normal;
@@ -243,6 +257,19 @@ line-height: 108.02%;
     }
     
 }
+
+@media screen and (max-width: 768px) {
+    .design__title{
+        width: 295px;
+        height: 230px;
+        padding-left: 30px;
+        padding-top: 102px;
+        padding-right: 25px;
+        font-size: 45.2376px;
+        padding-bottom: 20px;
+    }
+}   
+
 
 @media screen and (max-width: 425px) {
     .design__title{
@@ -293,6 +320,20 @@ padding-top: 33px;
     display: flex;
     flex-direction: column;
 }
+
+@media screen and (max-width:768px) {
+    .design__text_container{
+        max-width: 350px;
+    }
+}
+
+
+@media screen and (max-width:430px) {
+    .design__text_container{
+        max-width: max-content;
+    }
+}
+
 
 .design__btn{
     width: 210px;
@@ -353,11 +394,7 @@ position: relative;
    color: rgba(0, 0, 0, 0.91);;
 }
 
-@media screen and (max-width:425px) {
-    .design__subtitle_invisible{
-        display: none;
-    }
-}
+
 
 @media screen and (max-width:425px) {
     .design__btn_link{
@@ -476,10 +513,17 @@ color: black;
 
 @media screen and (max-width:425px) {
     .team__link{
-        margin-bottom: -434px;
+        margin-bottom: -455px;
     }
 }
 
+@media screen and (max-width:768px) {
+    .team__link_image{
+        width: 16px;
+
+    
+    }
+}
 @media screen and (max-width:425px) {
     .team__link_image{
         width: 16px;
@@ -642,6 +686,13 @@ padding-top: 171px;
 @media screen and (max-width:1200px) {
     .project__container_image{
         max-width: 639px
+    }
+}
+
+@media screen and (max-width:768px) {
+    .project__container_image{
+        max-width: 376px;
+    object-fit: cover;
     }
 }
 
@@ -907,6 +958,13 @@ margin-left: 100px
     height: 506px;
 }
 
+@media screen and (max-width:768px) {
+    .adv__container_image{
+        width: 395px;
+        object-fit: contain
+    }
+}
+
 @media screen and (max-width:425px) {
     .adv__container_image{
         height: 238px;
@@ -945,6 +1003,13 @@ margin-left: 100px
     .adv__container_text{
         padding-top: 34px;
         padding-bottom: 34px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .adv__container_text{
+       font-size: 19px;
+       padding-bottom: 0;
     }
 }
 
@@ -1026,8 +1091,13 @@ margin-left: 100px
     position: relative;
     left: 0;
     transition: all ease 1s;
+}
 
-
+@media screen and (max-width:768px) {
+    .clients__container_com{
+        position: relative;
+        left: 42px;
+    }
 }
 
 @media screen and (max-width:425px) {
@@ -1206,6 +1276,18 @@ margin-left: 100px
 height: 733px;
 }
 
+@media screen and (max-width:769px) {
+    .work__image{
+        width: 315px;
+        object-fit: contain;
+        margin-right: 50px;
+        margin-top: 28px;
+
+    }
+}
+
+
+
 .work__container_arrows{
     display: flex;
     flex-direction: column;
@@ -1216,6 +1298,14 @@ height: 733px;
     height: 26px;
     margin-right: 66px;
     margin-top: 11px;
+}
+
+@media screen and (max-width:769px) {
+    .work__container_arrow{
+        width: 18px;
+        margin-right: 40px;
+
+    }
 }
 
 .work__container_arrow:last-child(){
@@ -1248,6 +1338,13 @@ color: #464646;
     }
 }
 
+@media screen and (max-width:769px) {
+    .work__container_subtitle{
+        font-size: 19px;
+        padding-bottom: 5px;
+    }
+}
+
 .work__container_group2{
     display: flex;
 }
@@ -1257,7 +1354,15 @@ color: #464646;
     font-weight: 500;
 font-size: 23px;
 line-height: 30px;
- margin-left: 617px;
+     margin-left: 92px;
+}
+
+
+@media screen and (max-width:769px) {
+    .work__container_link{
+        font-size: 19px;
+        margin-left: 59px;
+    }
 }
 
 .work__container_image{
@@ -1969,6 +2074,8 @@ margin-bottom: 27px;
     border-bottom: 1px solid;
 }
 
+
+
 .header__image_burger-portfolio{
     margin-top: 65px;
 }
@@ -2156,5 +2263,4 @@ margin-bottom: 27px;
     background: #F9F5F2;
     height: 51px;
     width: 199px;
-    margin-bottom: 264px;
-}
+    margin-bottom: 264px;}
