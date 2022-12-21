@@ -7,7 +7,6 @@
     padding: 0;
     max-width: 1440px;
     background: #F9F5F2;
-    overflow: hidden;
 }
 
 @media screen and (max-width: 425px) {
@@ -39,9 +38,9 @@ ul{
     border: none;
     height: 85px;
     backdrop-filter: blur(7px);
-    z-index: 5;
-    position: sticky;
-    top: 0;
+    z-index: 101;
+    position: fixed;
+    width: 100vh;
     }
 }
 
@@ -57,9 +56,10 @@ ul{
     background-image: url(./image/кухня-гост_06\,2_CShading_LightMix\ 1.png);
     overflow:hidden;
     background-size: cover
+    }
 }
 
-}
+
 
 @media screen and (max-width: 425px) {
     .design__image{
@@ -280,6 +280,7 @@ line-height: 108.02%;
         backdrop-filter: blur(4px);
         width: 383px;
         border-bottom-right-radius: 240px;
+        margin-top: 95px;
     }
     
 }
@@ -2092,6 +2093,10 @@ margin-bottom: 27px;
     }
 }
 
+
+.project__container_margin{
+    padding-top: 98px;
+}
 
 
 
