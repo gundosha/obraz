@@ -661,6 +661,7 @@ color: black;
 
 
 .project__container_subtitle{
+    font-family: 'RalewayRegular', 'Arial', 'sans-serif';
     margin: 0;
     font-style: normal;
 font-weight: 600;
@@ -1823,6 +1824,7 @@ line-height: 24px;
 }
 
 .dream__btn{
+    font-family: 'RalewayRegular', 'Arial', 'sans-serif';
     background-color: black;
     margin-left: -4px;
     color: white;
