@@ -496,7 +496,7 @@ padding-bottom: 93px;
     .team__subtitle{
         font-size: 16px;
         max-width: 350px;
-        margin-bottom: 340px
+        margin-bottom: 370px
 }}
 
 .team__link{
@@ -516,7 +516,7 @@ color: black;
 
 @media screen and (max-width:425px) {
     .team__link{
-        margin-bottom: -455px;
+        margin-bottom: -500px;
     }
 }
 
