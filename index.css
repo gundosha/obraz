@@ -278,7 +278,7 @@ line-height: 108.02%;
     .design__title{
         font-size: 40.2376px;
         padding: 40px 0px 0px 23px;
-        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
         width: 383px;
         border-bottom-right-radius: 240px;
     }
