@@ -6,6 +6,7 @@
     margin: 0 auto;
     padding: 0;
     max-width: 1440px;
+    overflow: hidden;
     background: #F9F5F2;
 }
 
@@ -37,10 +38,7 @@ ul{
     .header{
     border: none;
     height: 85px;
-    backdrop-filter: blur(7px);
-    z-index: 101;
-    position: fixed;
-    width: 100vh;
+   /* backdrop-filter: blur(7px); */
     }
 }
 
@@ -136,6 +134,8 @@ ul{
 
 .header__image_burger{
     margin-top: 41px;
+    position: fixed;
+    z-index: 101;
 }
 
 @media screen and (min-width:500px) {
@@ -146,13 +146,14 @@ ul{
 }
 
 .header__menu_burgers{
-    position: absolute;
-    top: 100%;
     right: 0;
     background-color: red;
     list-style: none;
     padding: 0;
     margin: 0;
+    position: fixed;
+    z-index: 101;
+    top: 74px;
 }
 
 .header__menu_burger_block{
@@ -280,7 +281,6 @@ line-height: 108.02%;
         backdrop-filter: blur(4px);
         width: 383px;
         border-bottom-right-radius: 240px;
-        margin-top: 95px;
     }
     
 }
