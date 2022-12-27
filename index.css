@@ -1,6 +1,10 @@
 @import url(./font/fonts.css
 );
 
+body{
+    font-family: 'RalewayRegular', 'Microsoft Sans Serif', 'sans-serif'
+}
+
 .page{
     font-family: 'RalewayRegular', 'Microsoft Sans Serif', 'sans-serif';
     margin: 0 auto;
