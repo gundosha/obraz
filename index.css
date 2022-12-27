@@ -1842,7 +1842,6 @@ margin-bottom: 115px;
 }
 
 .dream__btn{
-    font-family: 'RalewayRegular', 'Microsoft Sans Serif', 'sans-serif';
     background-color: black;
     margin-left: -4px;
     color: white;
@@ -1854,8 +1853,6 @@ margin-bottom: 115px;
     padding-top: 2px;
 }
 
-._error{
-}
 
 .dream__btn:active{
     opacity: 0.5;
