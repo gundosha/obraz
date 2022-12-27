@@ -1818,10 +1818,9 @@ margin-bottom: 115px;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-    border: 1px;
+    border: 1px solid;
     padding: 0;
     /* background: black; */
-    padding-bottom: 1px;
 }
 
 
@@ -1838,7 +1837,7 @@ margin-bottom: 115px;
     .dream__input{
         font-size: 8px;
         width: 170px;
-        height: 35px;
+        height: 33px;
     }
 }
 
@@ -1852,7 +1851,7 @@ margin-bottom: 115px;
     border: none;
     cursor: pointer;
     padding: 0;
-    padding-top: 1px;
+    padding-top: 2px;
 }
 
 ._error{
