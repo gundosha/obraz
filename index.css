@@ -1813,12 +1813,16 @@ margin-bottom: 115px;
 
 .dream__input{
     width: 400px;
-    height: 68px;
+    height: 70px;
     font-weight: 400;
-font-size: 18px;
-line-height: 24px;
-
+    font-size: 18px;
+    line-height: 24px;
+    border: 1px;
+    padding: 0;
+    /* background: black; */
+    padding-bottom: 1px;
 }
+
 
 @media screen and (max-width:550px) {
     .dream__input{
@@ -1838,14 +1842,16 @@ line-height: 24px;
 }
 
 .dream__btn{
-    font-family: 'RalewayRegular', 'Arial', 'sans-serif';
+    font-family: 'RalewayRegular', 'Microsoft Sans Serif', 'sans-serif';
     background-color: black;
     margin-left: -4px;
     color: white;
     width: 400px;
-    height: 73.5px;
+    height: 71px;
     border: none;
     cursor: pointer;
+    padding: 0;
+    padding-top: 1px;
 }
 
 ._error{
