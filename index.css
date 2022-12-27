@@ -2,7 +2,7 @@
 );
 
 .page{
-    font-family: 'RalewayRegular', 'Microsoft sans-serif', 'sans-serif';
+    font-family: 'RalewayRegular', 'Microsoft Sans Serif', 'sans-serif';
     margin: 0 auto;
     padding: 0;
     max-width: 1440px;
@@ -661,7 +661,7 @@ color: black;
 
 
 .project__container_subtitle{
-    font-family: 'RalewayRegular', 'Arial', 'sans-serif';
+    font-family: 'RalewayRegular', 'Microsoft Sans Serif', 'sans-serif';
     margin: 0;
     font-style: normal;
 font-weight: 600;
