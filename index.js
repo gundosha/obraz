@@ -11,8 +11,8 @@ const sliderblock = document.querySelector('.clients__container_com')
 
 btnslider.forEach(function(item, i, btnslider){
     item.addEventListener('click', function(){
-        offset -=357
-        if (offset < -714){
+        offset -=380
+        if (offset < -760){
             offset = 0
         }
         sliderblock.style.left = offset + 'px'
