@@ -7,7 +7,7 @@ let offset = 0;
 let offsetTwo = 0
 const btnslider = document.querySelectorAll('.slider_next')
 const sliderblock = document.querySelector('.clients__container_com')
-
+const dreambtn = document.querySelector('.dream__btn')
 
 btnslider.forEach(function(item, i, btnslider){
     item.addEventListener('click', function(){
@@ -33,34 +33,12 @@ pricebtnslider.forEach(function(item, i, btnslider){
 
 
 
+
 function open_sublist(){
     open_menu.classList.toggle('header__menu_burger_block')
 }
 
 open_btn.addEventListener('click', open_sublist);
 
-
-
-
-
-
-$(document).ready(function(){
-
-
-    $('form').submit(function(){
-        let th = $(this);
-        $.ajax({
-            type: "POST",
-            url: "mail.php",
-            data: th.serialize()
-        }).done(function(){
-            alert('thank you!');
-            setTimeout(function(){
-                th.trigger('reset');
-            }, 1000)
-        })
-        return false;
-    });
-});
 
 
